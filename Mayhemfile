@@ -1,0 +1,7 @@
+project: rnshah9/ntpsec
+target: keyword-gen
+tests: null
+
+cmds:
+  - cmd: /repo/build/host/ntpd/keyword-gen @@
+    filepath: /test.h
