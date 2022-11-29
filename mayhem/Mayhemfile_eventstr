@@ -1,4 +1,7 @@
 project: ntpsec
 target: eventstr
 
+cmds:
   - cmd: /fuzz_eventstr
+    libfuzzer: true
+
