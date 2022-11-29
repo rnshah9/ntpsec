@@ -1,0 +1,4 @@
+project: ntpsec
+target: eventstr
+
+  - cmd: /fuzz_eventstr
